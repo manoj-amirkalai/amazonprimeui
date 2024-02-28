@@ -1,0 +1,282 @@
+img {
+  width: 100%;
+  height: 100%;
+}
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0.1% 0 0.5% 10%;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.932);
+}
+nav h1,
+p {
+  cursor: pointer;
+}
+.nav1 {
+  display: flex;
+  justify-content: space-evenly;
+  color: rgb(187, 180, 180);
+  gap: 10%;
+  width: 30%;
+  margin: 0.7% 5% 0 10%;
+  font-size: 130%;
+}
+.nav2 {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(187, 180, 180);
+  gap: 10%;
+  margin: 0.7% 10% 0 0%;
+  position: relative;
+  width: 30%;
+  font-size: 130%;
+}
+.one,
+.two {
+  display: flex;
+}
+.content {
+  font-size: 150%;
+  z-index: 10;
+  padding: 5% 5%;
+  background-color: black;
+  box-shadow: 40px 0 100px 0 black;
+  color: white;
+}
+button {
+  width: 40%;
+  padding: 3.5%;
+  background-color: rgb(48, 138, 184);
+  border-radius: 10px;
+  margin-left: 50px;
+  color: white;
+  font-size: large;
+}
+.image2 {
+  margin-top: -10px;
+}
+.home2 {
+  display: flex;
+  height: 100vh;
+}
+.imagecol {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+  margin-left: 10%;
+  margin-right: 2%;
+  margin-top: 4%;
+}
+.contentimg {
+  width: 65%;
+}
+.contentimg h1 {
+  margin: 40% 0 0 15%;
+}
+.contentimg h1 {
+  margin: 20% 0 0 8%;
+  width: 120%;
+  font-weight: 600;
+  font-size: 350%;
+  position: relative;
+  z-index: 9;
+}
+.contentimg p {
+  margin: 10% 0 0 15%;
+  font-size: 150%;
+  font-weight: 300;
+}
+
+.colimg {
+  width: 30%;
+  height: 90%;
+}
+.col {
+  display: flex;
+  margin-bottom: -5%;
+  gap: 2%;
+}
+.colimg:hover {
+  width: 31%;
+  height: 91%;
+  box-shadow: 0 0 35px 2px black;
+}
+.three {
+  display: flex;
+  background-color: black;
+  color: white;
+}
+.content3 {
+  margin-top: 10%;
+  font-size: 80%;
+  .button3 {
+    width: 20% !important;
+    padding: 2%;
+    margin-left: 10% !important;
+  }
+}
+.footer {
+  padding: 3% 0 3% 0;
+  background-color: black;
+  color: rgb(163, 158, 158);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foot {
+  display: flex;
+  width: 30%;
+  margin-left: 3%;
+  gap: 10%;
+  color: rgb(0, 139, 186);
+}
+.content2 {
+  height: 71.8vh;
+}
+.footimg {
+  width: 10%;
+  margin-top: 1%;
+}
+@media screen and (max-width: 1200px) {
+  .nav {
+    font-size: 80%;
+  }
+  .content {
+    font-size: 100%;
+  }
+  .content3 {
+    font-size: 80%;
+  }
+  .content button {
+    font-size: 80%;
+  }
+  .button3 {
+    font-size: 100%;
+  }
+  .contentimg h1 {
+    font-size: 200%;
+  }
+  .contentimg p {
+    font-size: 140%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nav h1 {
+    margin: 15px 0 0 -90px;
+    font-size: 130%;
+  }
+  .nav1,
+  .nav2 {
+    font-size: 100%;
+  }
+  .imagecol {
+    width: 80%;
+  }
+  .contentimg p {
+    font-size: 100%;
+  }
+  .contentimg h1 {
+    font-size: 140%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .nav h1 {
+    margin: 15px 0 0 -50px;
+    font-size: 130%;
+  }
+  .nav1,
+  .nav2 {
+    font-size: 100%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .one,
+  .two,
+  .three,
+  .home2 {
+    display: block;
+  }
+}
+@media screen and (max-width: 700px) {
+  .nav h1 {
+    margin: 15px 0 0 -50px;
+    font-size: 130%;
+  }
+  .nav1,
+  .nav2 {
+    font-size: 70%;
+  }
+  .content h3 {
+    font-size: 120%;
+    margin-left: 10%;
+  }
+  .content p {
+    font-size: 90%;
+    margin-left: 10%;
+  }
+  .content button {
+    width: 30%;
+    font-size: 50%;
+    padding: 2%;
+  }
+  .content2 {
+    height: 30vh;
+  }
+  .contentimg {
+    margin-left: 10%;
+  }
+  .home2 {
+    height: 75vh;
+  }
+  .content3 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .footer {
+    font-size: 70%;
+  }
+  .footer p {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .image,
+  .image3 {
+    width: 100vw;
+    height: 45vh;
+  }
+  .footer p {
+    font-size: 40%;
+  }
+  .content3 h1 {
+    font-size: 150%;
+  }
+  .content3 p {
+    font-size: 90%;
+  }
+  .button3 {
+    font-size: 50%!important;
+    border-radius: 5%!important;
+
+  }.content3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }.nav h1{
+    font-size: 65%;
+    margin-left: -20px;
+    width: 20%;
+  }
+  .nav2,.nav1{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 40%;
+    font-size: 55%;
+  }.nav{
+    margin: 0;
+
+  }}
+
